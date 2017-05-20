@@ -1,0 +1,60 @@
+extends template
+block title
+	title Main
+block content
+	.content
+		.content__top
+			h1.title.title_main Upgrade to Customize Your Achieve Client App
+			small.small Choose a plan to get an accsess to customization settings:
+		.content__middle
+			.phone
+				.phone__images
+					.image.image_small
+						img(src="img/iphone61blue.png" alt="123")
+					.image.image_small
+						img(src="img/iphone61blue2.png" alt="123")
+					.phone__best 
+						p Most Popular		
+				.phone__text
+					h2.title.title_up.title_blue.title_card Pro
+					b $40/month
+					p Everything included in
+						span.yellow Basic
+						|plus:
+					form.form
+						.form__item
+							label.form__label Configure Colors and Splash Screen
+								input(type="checkbox" name="item1[1]").form__input
+						.form__item
+							label.form__label Equipment and Asset Booking
+								input(type="checkbox" name="item1[2]").form__input
+						.form__item
+							label.form__label Events, Enrollments and Workshop Booking
+								input(type="checkbox" name="item1[3]").form__input
+						.form__item
+							label.form__label On-Demand and Automatic Push Notifications
+								input(type="checkbox" name="item1[3]").form__input
+						.form__item
+							button(type="submit" disabled).form__button Buy Now		
+				
+			.phone
+				.phone__images
+					.image.image_small
+						img(src="img/iphone61blue.png" alt="123")
+					.image.image_small
+						img(src="img/iphone61blue2.png" alt="123")
+				.phone__text
+					h2.title.title_up.title_green.title_card ENTERPRISE
+					b $60/month
+					p Everything included in
+						span.blue Pro
+						|plus:
+					form.form
+						.form__item
+							label.form__label Dedicated download on the <br/>Apple App Store and Google Play
+								input(type="checkbox" name="item2[1]").form__input
+						.form__item
+							label.form__label Custom icon
+								input(type="checkbox" name="item2[2]").form__input
+						.form__item
+							button(type="submit" disabled).form__button Buy Now
